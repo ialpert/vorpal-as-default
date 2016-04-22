@@ -7,4 +7,4 @@ cache:
   - node_modules
 addons:
     code_climate:
-        repo_token: e96f3dadda7527b545f8a3362b50ae6d6493a21ba990ea8b19ecd55c36ebf781
+        repo_token: 8e80d4ed1d0f56506166032472d87e8ff109f6d51570c2b773e32bece62ed294
