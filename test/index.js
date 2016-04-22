@@ -3,6 +3,8 @@ import { stdout, stderr } from 'test-console';
 import asDefault from '../src/index.js';
 import Vorpal from 'vorpal';
 
+let restoreStdout;
+
 function getCLI() {
   let vorpal = Vorpal();
 
@@ -34,6 +36,14 @@ function getCLI() {
 
   return vorpal;
 }
+
+beforeEach(function () {
+  restoreStdout = stdout.ignore();
+});
+
+afterEach(function () {
+  restoreStdout();
+});
 
 
 describe('Vorpal', function () {

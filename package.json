@@ -1,13 +1,13 @@
 {
   "name": "vorpal-as-default",
   "version": "0.0.1",
-  "description": "Plugin for Vorpal that run defined command if no commands where specified previously ",
+  "description": "Plugin for Vorpal that run defined command if no commands where specified previously",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "nyc --reporter=lcov --reporter=text-lcov _mocha && codecov",
+    "test": "nyc --reporter=lcov _mocha && cat coverage/lcov.info| codecov",
     "build": "babel --presets es2015 src --out-dir lib",
     "prepublish": "babel --presets es2015 src --out-dir lib"
   },
