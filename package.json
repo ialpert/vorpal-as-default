@@ -2,6 +2,7 @@
   "name": "vorpal-as-default",
   "version": "0.0.1",
   "description": "Plugin for Vorpal that run defined command if no commands where specified previously",
+	"readmeFilename": "README.md",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
