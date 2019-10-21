@@ -34,7 +34,7 @@
     "codecov.io": "^0.1.6",
     "commitizen": "^2.8.0",
     "cz-conventional-changelog": "^1.1.6",
-    "eslint": "^2.7.0",
+    "eslint": "^6.5.1",
     "expect": "^1.16.0",
     "mocha": "^2.4.5",
     "nyc": "^6.4.0",
